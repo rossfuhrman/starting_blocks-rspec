@@ -3,13 +3,13 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = "starting_blocks-elixir"
-  spec.version       = "1.0.2"
-  spec.authors       = ["Darren Cauthon"]
-  spec.email         = ["darren@cauthon.com"]
-  spec.description   = %q{Run your elixir tests automatically.}
-  spec.summary       = %q{elixir support for starting_blocks}
-  spec.homepage      = "http://www.github.com/darrencauthon/starting_blocks-elixir"
+  spec.name          = "starting_blocks-rspec"
+  spec.version       = "0.0.1"
+  spec.authors       = ["Ross Fuhrman"]
+  spec.email         = ["r.oss.fuhrman@gmail.com"]
+  spec.description   = %q{Run your rspec tests automatically.}
+  spec.summary       = %q{rspec support for starting_blocks}
+  spec.homepage      = "http://www.github.com/rossfuhrman/starting_blocks-rspec"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

@@ -1,4 +1,4 @@
- class ElixirContract < StartingBlocks::Contract
+ class RspecContract < StartingBlocks::Contract
 
   def file_clues
     ["test", "spec"]
