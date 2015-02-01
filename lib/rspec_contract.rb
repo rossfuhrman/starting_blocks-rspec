@@ -5,11 +5,13 @@
   end
 
   def extensions
-    ['.ex', '.exs']
+    ['.rb']
   end
 
   def execute_these_files files
-    `mix test`
+    requires = files.map { |x| "require '#{x}'" }.join("\n")
+    command = "rspec #{files.join(" ")}"
+    StartingBlocks::Bash.run command
   end
 
 end
