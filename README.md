@@ -6,10 +6,10 @@ As you edit files in your ruby app, starting_blocks will run the tests automatic
 
 ## Usage
 
-Include "--rspec" when running starting blocks.
+Include "rspec" when running starting blocks.
 
 ```
-sb --rspec
+sb rspec
 ```
 
 Now when you update a test file or you edit a file with a similar name to a test file, the tests will be run.
