@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "http://www.github.com/rossfuhrman/starting_blocks-rspec"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files`.split($/)
+  spec.files         = Dir[ "{lib}/**/*.rb", "bin/*", "LICENSE", "*.md"]
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
