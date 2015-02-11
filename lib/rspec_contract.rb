@@ -1,7 +1,7 @@
  class RspecContract < StartingBlocks::Contract
 
   def file_clues
-    ["test", "spec"]
+    ["spec"]
   end
 
   def extensions
