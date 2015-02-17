@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "starting_blocks-rspec"
-  spec.version       = "0.0.3"
+  spec.version       = "0.0.4"
   spec.authors       = ["Ross Fuhrman"]
   spec.email         = ["r.oss.fuhrman@gmail.com"]
   spec.description   = %q{Run your rspec tests automatically.}
