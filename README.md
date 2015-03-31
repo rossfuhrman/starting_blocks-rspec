@@ -6,7 +6,7 @@ As you edit files in your ruby app, starting_blocks will run the tests automatic
 
 ## Usage
 
-Include "rspec" when running starting blocks.
+Include "rspec" option when running starting blocks.
 
 ```
 sb rspec
