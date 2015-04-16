@@ -11,7 +11,8 @@
   def execute_these_files files
     requires = files.map { |x| "require '#{x}'" }.join("\n")
     command = "rspec #{files.join(" ")}"
-    StartingBlocks::Bash.run command
+    block = Proc.new { |command| system( command ) }
+    StartingBlocks::Bash.run command, block
   end
 
 end
